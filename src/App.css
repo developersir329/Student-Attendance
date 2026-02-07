@@ -1,0 +1,176 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.mai-container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 20px;
+  background : white;
+  border-radius: 15px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.625);
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.mai-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 35px;
+}
+
+
+.input-box,
+.date-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.add-btn,
+.view-btn {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn {
+  background: #007bff;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #0056b3;
+}
+
+.view-btn {
+  background: #28a745;
+  color: white;
+}
+
+.view-btn:hover {
+  background: #1e7e34;
+}
+
+
+.add-btn {
+  margin-right: 4%;
+}
+
+
+.attendance-card {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+.attendance-card p {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 14px;
+}
+.attendance-card button {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .mai-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 18px;
+  }
+
+  .mai-container h2 {
+    font-size: 24px;
+  }
+
+  .input-box,
+  .date-box {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .add-btn,
+  .view-btn {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .mai-container {
+    max-width: 95%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .mai-container h2 {
+    font-size: 20px;
+  }
+
+  /* Buttons one below another */
+  .add-btn,
+  .view-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .add-btn {
+    margin-right: 0;
+  }
+
+  .attendance-card {
+    padding: 12px;
+  }
+
+  .attendance-card p {
+    font-size: 13px;
+  }
+
+  .attendance-card button {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 5px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 320px) {
+  .mai-container h2 {
+    font-size: 18px;
+  }
+
+  .input-box,
+  .date-box {
+    font-size: 12px;
+  }
+}
