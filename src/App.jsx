@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from "react";
-import './app.css'
+import './App.css'
 function App() {
   const [input, setInput] = useState("");
   const [students, setStudents] = useState([]);
